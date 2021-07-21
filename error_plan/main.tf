@@ -3,6 +3,10 @@ provider "aws" {
   access_key = "${var.scalr_aws_access_key}"
   secret_key = "${var.scalr_aws_secret_key}"
 }
+variable "reg" {
+  type = string
+}
+
 data "aws_ami" "ubuntu" {
   most_recent = true
   filter {
