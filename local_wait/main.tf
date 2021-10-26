@@ -3,7 +3,7 @@ variable "run_id" {
   sensitive = true
 }
  
-variable "sleep_time" {
+variable "sleep_time" { 
   default = 31  
 }
 
