@@ -13,7 +13,7 @@ resource "null_resource" "wait" {
       sleep 20
     EOT
   }
-  triggers = {
+  triggers = { 
     always_run = timestamp()
   }
 }
