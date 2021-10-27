@@ -11,7 +11,7 @@ resource "random_integer" "timeout" {
   min = 31
   max = 180
 
-  keepers = {
+  keepers = { 
     run_id = var.run_id
   }
 }
