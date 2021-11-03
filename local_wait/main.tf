@@ -1,4 +1,4 @@
-variable% "run_id" {
+variable "run_id" {
   default = "run_id_3"
   sensitive = true
 }
