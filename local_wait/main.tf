@@ -35,4 +35,4 @@ output "senc_out" {
   value = "secret data"
   description = "my sensitive output"
   sensitive = true
-}
+} 
