@@ -4,7 +4,7 @@ variable "run_id" {
 }
  
 variable "sleep_time" {
-  default = 120
+  default = 12
 }
 
 resource "null_resource" "wait" {
