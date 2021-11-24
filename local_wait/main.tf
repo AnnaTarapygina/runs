@@ -19,7 +19,7 @@ resource "random_integer" "timeout" {
 resource "null_resource" "wait" {
   provisioner "local-exec" {
     command = <<EOT
-      sleep 60
+      sleep 360
     EOT
   }
   triggers = {
