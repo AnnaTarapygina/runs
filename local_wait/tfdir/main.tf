@@ -10,7 +10,7 @@ variable "sleep_time" {
 resource "null_resource" "wait" {
   provisioner "local-exec" {
     command = <<EOT
-      sleep 22
+      sleep 23
     EOT
   }
   triggers = { 
